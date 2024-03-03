@@ -11,9 +11,9 @@ function NewTextBox(_message, _background = 1, _responses = [])
 		for (var i = 0; i < array_lengh(responses); i++)
 		{
 			var _markerPosition = string_pos(":", responses[i]);
-			responseScripts[i] = string_copy(responses[i], 1, _markerPosition-1);
-			responseScripts[i] = real(responseScripts[i]);
+			responseScripts[i] = real( string_copy(responses[i], 1, _markerPosition-1) );
 			responses[i] = string_delete(responses[i],1,_markerPosition);
+			breakpoint = 10;
 		}
 		
 		
