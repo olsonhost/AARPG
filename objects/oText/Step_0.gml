@@ -8,7 +8,7 @@ x2 = lerp(x2,x2Target,lerpProgress);
 var _keyUp = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));
 var _keyDown = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));
 responseSelected += (_keyDown - _keyUp);
-var _max = array_length(responses)-1;
+var _max = array_length(responses)-1; // set by creator (i.e. NewTextBox), would overwrite when changing from oTextQueued to oText if I put in create event
 var _min = 0;
 if (responseSelected > _max) responseSelected = _min;
 if (responseSelected < _min) responseSelected = _max;
@@ -19,6 +19,13 @@ if (oPlayer.keyActivate)
 	var _messageLength = string_length(textMessage ?? "Blorg!");
 	if (textProgress >= _messageLength) 
 	{
+		if (responses[0] != "-1")
+		{
+			with (originInstance) // set by creator (i.e. NewTextBox), would overwrite when changing from oTextQueued to oText if I put in create event
+			{
+				DialogResponses(other.responseScripts[other.responseSelected]);
+			}
+		}
 		instance_destroy();
 		if (instance_exists(oTextQueued)) 
 		{

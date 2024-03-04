@@ -48,6 +48,7 @@
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"NineSliceBoxStretched","path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},},
     {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},},
+    {"id":{"name":"DialogResponses","path":"scripts/DialogResponses/DialogResponses.yy",},},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},},
     {"id":{"name":"sQuesie","path":"sprites/sQuesie/sQuesie.yy",},},
     {"id":{"name":"PlayerStateLocked","path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},},

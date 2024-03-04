@@ -29,6 +29,7 @@
     {"name":"sCol","order":2,"path":"sprites/sCol/sCol.yy",},
     {"name":"MACROS","order":1,"path":"scripts/MACROS/MACROS.yy",},
     {"name":"NineSliceBoxStretched","order":6,"path":"scripts/NineSliceBoxStretched/NineSliceBoxStretched.yy",},
+    {"name":"DialogResponses","order":10,"path":"scripts/DialogResponses/DialogResponses.yy",},
     {"name":"NewTextBox","order":8,"path":"scripts/NewTextBox/NewTextBox.yy",},
     {"name":"sQuesie","order":8,"path":"sprites/sQuesie/sQuesie.yy",},
     {"name":"PlayerStateLocked","order":7,"path":"scripts/PlayerStateLocked/PlayerStateLocked.yy",},

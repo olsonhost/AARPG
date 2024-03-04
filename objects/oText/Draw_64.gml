@@ -9,6 +9,8 @@ draw_set_valign(fa_top);
 draw_set_color(c_black);
 var _print = string_copy(textMessage ?? "Blarg!",1,textProgress);
 
+
+
 if (responses[0] != -1) && (textProgress >= string_length(textMessage ?? "Blarg!"))
 {
 	for (var i=0; i < array_length(responses); i++)

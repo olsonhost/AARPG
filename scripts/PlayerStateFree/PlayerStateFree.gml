@@ -28,8 +28,8 @@ function PlayerStateFree(){
 		// 3. Otherwis, there is something and it has a script - Activate!
 		// 4. If the thing we activate is NPC make it face towards us
 
-		var _activateX = lengthdir_x(8, direction); 
-		var _activateY = lengthdir_y(8, direction); 
+		var _activateX = lengthdir_x(18, direction); 
+		var _activateY = lengthdir_y(18, direction); 
 		activate = instance_position(x + _activateX, y + _activateY, pEntity);
 		//activate = instance_position(x + _activateX, y - 8 + _activateY, pEntity);
 		
