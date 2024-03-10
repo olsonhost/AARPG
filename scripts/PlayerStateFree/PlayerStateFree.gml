@@ -19,6 +19,11 @@ function PlayerStateFree(){
 	// Update image index
 	PlayerAnimateSprite();
 	
+	if (keyAttack)
+	{
+		state = PlayerStateAttack;
+		stateAttack = AttackSlash;
+	}
 
 	// Activate Key Logic
 	if(keyActivate) {
