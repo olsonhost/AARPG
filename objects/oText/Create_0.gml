@@ -11,3 +11,5 @@ textProgress = 0;
  
 
 responseSelected = 0;
+
+skipStepEvent = false;

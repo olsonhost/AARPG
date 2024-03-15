@@ -18,7 +18,7 @@ function CalcAttack(mask){
 				{
 					
 					
-					image_blend = c_red;
+					if (entityHitScript != -1) script_execute(entityHitScript);
 				}
 			}
 		}
