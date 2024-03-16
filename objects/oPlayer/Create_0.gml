@@ -35,3 +35,10 @@ keyAttack=0;
 keyItem=0;
 inputMagnitude=0;
 inputDirection=0;
+
+if (global.targetX != -1)
+{
+	x = global.targetX;
+	y = global.targetY;
+	direction = global.targetDirection;
+}

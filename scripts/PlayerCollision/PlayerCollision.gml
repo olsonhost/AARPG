@@ -50,7 +50,7 @@ function PlayerCollision(){
 
 
 	// Vertical Entites
-	var _entityCount = instance_position_list(x, y + vSpeed, pEntity, _entityList, false);
+	_entityCount = instance_position_list(x, y + vSpeed, pEntity, _entityList, false);
 	var _snapY;
 	while(_entityCount > 0) {
 		var _entityCheck = _entityList[| 0];
