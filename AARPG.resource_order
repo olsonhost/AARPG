@@ -57,6 +57,7 @@
     {"name":"oPlantB","order":4,"path":"objects/oPlantB/oPlantB.yy",},
     {"name":"sPlayerRoll","order":3,"path":"sprites/sPlayerRoll/sPlayerRoll.yy",},
     {"name":"AttackSpin","order":1,"path":"scripts/AttackSpin/AttackSpin.yy",},
+    {"name":"rRiver","order":4,"path":"rooms/rRiver/rRiver.yy",},
     {"name":"rVillage","order":1,"path":"rooms/rVillage/rVillage.yy",},
     {"name":"DropItems","order":11,"path":"scripts/DropItems/DropItems.yy",},
     {"name":"sFrag_plant","order":15,"path":"sprites/sFrag_plant/sFrag_plant.yy",},

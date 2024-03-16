@@ -84,6 +84,7 @@
     {"id":{"name":"oPlantB","path":"objects/oPlantB/oPlantB.yy",},},
     {"id":{"name":"sPlayerRoll","path":"sprites/sPlayerRoll/sPlayerRoll.yy",},},
     {"id":{"name":"AttackSpin","path":"scripts/AttackSpin/AttackSpin.yy",},},
+    {"id":{"name":"rRiver","path":"rooms/rRiver/rRiver.yy",},},
     {"id":{"name":"PlayerStateAttack","path":"scripts/PlayerStateAttack/PlayerStateAttack.yy",},},
     {"id":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},},
     {"id":{"name":"DropItems","path":"scripts/DropItems/DropItems.yy",},},
@@ -101,6 +102,7 @@
     {"roomId":{"name":"rParent","path":"rooms/rParent/rParent.yy",},},
     {"roomId":{"name":"rVillage","path":"rooms/rVillage/rVillage.yy",},},
     {"roomId":{"name":"rParent_Child_0","path":"rooms/rParent_Child_0/rParent_Child_0.yy",},},
+    {"roomId":{"name":"rRiver","path":"rooms/rRiver/rRiver.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
