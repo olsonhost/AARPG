@@ -6,7 +6,7 @@ global.textSpeed = .75;
 global.targetRoom = -1;
 global.targetX = -1;
 global.targetDirection = 0;
-
+global.iLifted = noone;
 
 global.iCamera = instance_create_layer(0,0,layer,oCamera);
 
